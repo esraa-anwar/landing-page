@@ -1,0 +1,70 @@
+.Cards{
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    position: relative;
+    .line{
+        position: absolute;
+        bottom: 44%;
+        left: 22%;
+    }
+    .Cards-content{
+justify-self: center;
+width: 90%;
+padding-top: 2rem;
+padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        height: 50vh;
+        position: relative;
+        .rec-one{
+            position: absolute;
+            width: 11%;
+            left: 2%;
+        }
+        .rec-two{
+            
+    position: absolute;
+    width: 8%;
+    bottom: 0;
+    left: 29%;
+
+        }
+        .line-two{
+            
+    position: absolute;
+    width: 30%;
+    left: 40%;
+    top: 5%;
+    height: 16vh;
+
+        }
+        img{
+            width: 80%;
+
+
+        }
+.line-one{
+    position: absolute;
+    top: -2%;
+    width: 67%;
+    left: 16%;
+    height: 19vh;
+}
+.dot{
+    position: absolute;
+    width: 6%;
+    right: 3%;
+    top: -15%;
+}
+        .card-one{
+
+    }
+    .card-two{
+        align-self: flex-end;
+        justify-self: end;
+    }
+    }
+}

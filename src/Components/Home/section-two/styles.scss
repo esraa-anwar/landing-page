@@ -1,0 +1,19 @@
+.logo-container{
+    margin-top: 2rem;
+ display: grid;
+ grid-template-columns: 1fr;
+ .logo-content{
+    justify-self: center;
+    width: 80%;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    p{
+        grid-column: 1/-1;
+        color: #3A3A3A;
+        font-size: 23px;
+        font-weight: bold;
+    }
+ }   
+}

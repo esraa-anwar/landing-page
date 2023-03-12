@@ -1,0 +1,146 @@
+.EcoSystem {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  .EcoSystem-content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4rem;
+    align-items: center;
+    justify-self: center;
+    p {
+      grid-column: 1/-1;
+      color: #3a3a3a;
+    //   margin-bottom: 2rem;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        p{
+            padding: 0;
+            margin: 0;
+        }
+        .title{
+            font-size: 24px;
+            font-weight: bold;
+            color: #3a3a3a;
+        }
+        .descrip{
+            font-size: 16px;
+
+            color: #6B6B6B;
+        }
+        .btn{
+            justify-self: center;
+            height: 45px;
+            border: 1px solid #6B6B6B;
+            color: #6B6B6B;
+            background: none;
+            width: 50%;
+        }
+    }
+    .img-content {
+      height: 400px;
+      justify-self: center;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      position: relative;
+      .one {
+        position: absolute;
+        width: 30%;
+        top: -13%;
+        display: grid;
+        grid-template-columns: 1fr;
+        left: -8%;
+        p {
+          font-size: 14px;
+          justify-self: center;
+        }
+        img {
+          justify-self: center;
+        }
+      }
+      .two {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        left: 39%;
+        top: 21%;
+        p {
+          font-size: 14px;
+          justify-self: center;
+        }
+        img {
+          justify-self: center;
+        }
+      }
+      .three {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        right: 12%;
+        top: -10%;
+         p{
+          font-size: 14px;
+          justify-self: center;
+        }
+        img {
+          justify-self: center;
+        }
+      }
+      .four {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        right: 3%;
+        bottom: 13%;
+
+        p {
+          font-size: 14px;
+          justify-self: center;
+        }
+        img {
+          justify-self: center;
+        }
+      }
+      .five {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        right: 29%;
+        bottom: -20%;
+
+        p {
+          font-size: 14px;
+          justify-self: center;
+        }
+        img {
+          justify-self: center;
+        }
+      }
+      .six {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        left: 16%;
+        bottom: -9%;
+
+        p {
+          font-size: 14px;
+          justify-self: center;
+        }
+        img {
+          justify-self: center;
+        }
+      }
+    }
+  }
+}

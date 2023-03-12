@@ -1,0 +1,184 @@
+.Head{
+    height: auto;
+    width: 100%;
+    display: grid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: 1fr;
+    padding-top: 3rem;
+  
+    padding-bottom: 3rem;
+    .navbar{
+        margin-bottom: 2rem;
+        width: 85%;
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: 1px solid #707070;
+        align-items: center;
+        padding-bottom: 2rem;
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            a{
+                color: #3A3A3A;
+                font-size: 16px;
+            }
+
+        }
+        .links-content{
+            width: 60%;justify-self: end;
+            display: flex;
+            align-items: center;
+            
+            gap: 1rem;
+            .buy-deve{
+                background-color: #FFA229;
+                width: 50%;
+                height: 45px;
+                border: none;
+                color: #fff;
+            }
+            .claim{
+                background: none;
+                border:  1px solid #6B6B6B;
+                color: #3A3A3A;
+                width: 50%;
+                height: 45px;
+            }
+            .lang{
+                width: 30%;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .icons-container{  justify-self: end;
+        display: flex;
+      
+        width: 20%;
+        gap: 1rem;
+        .icon{
+            display: grid;
+            border:1px solid #3A3A3A;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            grid-template-columns: 1fr;
+            align-items: center;
+            img{
+                justify-self: center;
+                width: 40%;
+            }
+        }
+    }
+    .Head-content{
+        justify-self: center;
+        width: 80%;
+        
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    p{
+        padding: 0;
+        margin: 0;}
+        .title{
+            font-size: 38px;
+            color: #3A3A3A;
+            font-weight: bold;
+        }
+        .desc{
+            font-size: 18px;
+            color: #6B6B6B;
+        }
+        .usdt{
+            font-size: 16px;
+            color: #3A3A3A
+            ;
+        }
+        .buy-now{
+            background-color: #FFA229;
+            border: none;
+            color: #fff;
+            justify-self: center;
+            width: 35%;
+            height: 45px;
+            margin-bottom: 3rem;
+        }
+        .btn-content{
+            width: 50%;
+            justify-self: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            button{
+                width: 100%;
+                height: 45px;
+                border: 1px solid #8A8A8A;
+                background: none;
+color: #3A3A3A;
+            }
+        }
+    
+}
+.img-content{
+    justify-self: end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-top: 2rem;
+    img{
+        margin-top: 2rem;
+        justify-self: center;
+        width: 70%;
+        align-self: flex-end;
+    }
+}
+    }
+    .cards-content{
+        margin-top: 2rem;
+        justify-self: center;
+      gap: 6rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .cards{
+            display: grid;
+            grid-template-columns: 60px 1fr ;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: left;
+                color: #3A3A3A;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+.wrapper {
+    border: 3px solid #8A8A8A;
+  }
+  
+  .container {
+    background-color: #C9C9C9;
+  }
+  
+  .barCompleted {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(209,102,218,1) 100%);
+
+    width: 80%;
+  }
+  
+  .label {
+    font-size: 20px;
+    color: green;
+  }
